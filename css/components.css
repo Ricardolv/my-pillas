@@ -75,6 +75,7 @@
   background-color: #bbb;
   color: #fff;
  
+  line-height: normal;
   font-size: 1em;
   text-decoration: none;
 }
@@ -86,12 +87,13 @@
   text-decoration: none;
 }
 
-.button--sign {
+.button--sign, .button--login {
   background-color: #127d00;
 
 }
 
-.button--sign:hover, .button--sign:focus {
+.button--sign:hover, .button--sign:focus
+, .button--login:hover, .button--login:focus  {
   background-color: #0e6400;
 }
 
@@ -104,6 +106,7 @@
 .button--principal:hover, .button--principal:focus {
   background-color: #003b6a;
 }
+
 
 /*-----------------------*\
   Call
@@ -199,4 +202,86 @@
 
 .depoiment__author > p {
   margin-top: 10px;
+}
+
+/*-----------------------*\
+  Navegation
+\*-----------------------*/
+
+.navegation {
+  
+}
+
+.navegation__menu {
+  float: right;
+}
+
+/*-----------------------*\
+  Button-Switch
+\*-----------------------*/
+.button-switch {
+  width: 24px;
+  height: 24px;
+  border: 0;
+
+  background: none;
+  background-image: url("../image/bars.png");
+
+  outline: none;
+}
+
+@media(min-width: 992px) {
+  .button-switch {
+    display: none;
+  }
+}
+
+/*-----------------------*\
+  Menu
+\*-----------------------*/
+
+.menu {
+  margin: 0;
+
+  font-size: 1.4rem;
+
+  list-style: none;
+}
+
+@media(max-width: 991px) {
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 200px;
+    border-width: 1px solid #eee;
+
+    background-color: #fbfbfb;
+  }
+
+  .menu__item {
+    display: block;
+
+    line-height: 3;
+  }
+
+  .menu__item--button {
+    margin-top: 20px;
+  }
+}
+
+@media(min-width: 992px) {
+  
+  .menu__item {
+    display: inline-block;
+    padding-right: 20px;
+  }
+
+  .menu__item:last-of-type {
+    padding-right: 0px;
+  }
+  
 }
