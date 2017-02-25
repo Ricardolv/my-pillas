@@ -1,0 +1,20 @@
+/*-----------------------*\
+  Base
+\*-----------------------*/
+
+html {
+	font-size: 62.5%; /* 10px */
+}
+
+body {
+  /* Positioning  */
+
+  /* Display and Box model  */
+  margin: 0;
+
+  /* Text  */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+  /* Other  */
+}
