@@ -74,6 +74,7 @@
 
   background-color: #bbb;
   color: #fff;
+  border: none;
  
   line-height: normal;
   font-size: 1em;
@@ -256,10 +257,15 @@
     left: 0;
     bottom: 0;
 
+    display: none;
     width: 200px;
     border-width: 1px solid #eee;
 
     background-color: #fbfbfb;
+  }
+
+  .menu--show {
+    display: block;
   }
 
   .menu__item {
@@ -284,4 +290,39 @@
     padding-right: 0px;
   }
   
+}
+
+/*--------------------*\
+  TITLE-FORMULARIO
+\*--------------------*/
+.title-formulario {
+  margin: 0;
+  margin-bottom: 40px;
+  
+  border-bottom: 1px solid #ccc;
+
+  font-size: 2.6rem;
+  font-weight: normal;
+  color: #004b86;
+}
+
+/*--------------------*\
+  GROUP-INPUT
+\*--------------------*/
+.group-input {
+  margin-bottom: 15px;
+}
+
+.group-input > label {
+  display: block;
+
+  font-weight: bold;
+}
+
+/*--------------------*\
+  FIELD
+\*--------------------*/
+.field {
+  display: block;
+  width: 100%;
 }
