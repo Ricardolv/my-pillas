@@ -5,6 +5,16 @@
 .layout-header {
   height: 60px;
   border-bottom: 1px solid #ccc;
+
+  background-color: #fff;
+}
+
+.layout-header--home {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0;
+	z-index: 9999;
 }
 
 .layout-header img {
@@ -17,6 +27,7 @@
 
 .layout-call {
 	padding: 80px 0;
+	margin-top: 60px;
 
 	background-color: #7ab55c;
 }
