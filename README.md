@@ -1,3 +1,3 @@
 # my-pillas  
 
-#html5, css3, metodologia BEM
+#HTML5, CSS3, metodologia BEM
